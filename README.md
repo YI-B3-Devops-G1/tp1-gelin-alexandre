@@ -10,7 +10,7 @@ vagrant init hashicorp/bionic64
 ```
 dans le dossier souhaité.
 
-Coller le contenu du repos (VagrantFile et Bottstrap.sh)
+Coller le contenu du repos (VagrantFile et Bottstrap.sh) dans ce dossier.
 
 ensuite il suffit d'effectuer la commande : 
 ```
