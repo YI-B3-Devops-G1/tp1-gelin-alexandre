@@ -1,8 +1,18 @@
 # tp1-gelin-alexandre
 
+
 ## lancer la vm via vagrant
 
-il faut s'assurer que le fichier bootstrap.sh est dans le meme dossier que le fichier VagrantFile
-pour cela il suffit d'effectuer la commande : 
+Après avoir installé Vagrant, lancer la commande : 
 
+```
+vagrant init hashicorp/bionic64
+```
+dans le dossier souhaité.
+
+Coller le contenu du repos (VagrantFile et Bottstrap.sh)
+
+ensuite il suffit d'effectuer la commande : 
+```
 vagrant up --provision
+```
